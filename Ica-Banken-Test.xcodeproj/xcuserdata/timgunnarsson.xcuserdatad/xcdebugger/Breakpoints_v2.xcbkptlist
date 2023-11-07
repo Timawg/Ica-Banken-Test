@@ -20,5 +20,527 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C279A41D-A8B1-48C8-BF20-59A9CA86D821"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ica-Banken-Test/ViewModels/PostListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "getPost()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C279A41D-A8B1-48C8-BF20-59A9CA86D821 - af29d3ee34882b6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in Ica_Banken_Test.PostListViewModel.getPost() -&gt; ()"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/ViewModels/PostListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "C279A41D-A8B1-48C8-BF20-59A9CA86D821 - f5929ef2b8bc8d44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Ica_Banken_Test.Post) -&gt; Swift.Bool in closure #1 @Sendable () async throws -&gt; () in Ica_Banken_Test.PostListViewModel.getPost() -&gt; ()"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/ViewModels/PostListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F6DD458-FAD0-4E49-B0DA-30C63E20F109"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ica-Banken-Test/ViewControllers/PostListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "216DAE89-61D6-4BAB-8CF1-469143E239C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ica-Banken-Test/Views/PostListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91488FB8-64F7-4328-B3A3-255414F7E19F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ica-Banken-Test/ViewModels/PostListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "getPost()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "91488FB8-64F7-4328-B3A3-255414F7E19F - 3ad7cb9da63ea0bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ica_Banken_Test.PostListViewModel.getPost() -&gt; ()"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/ViewModels/PostListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "91488FB8-64F7-4328-B3A3-255414F7E19F - 3ad7cb9da63ea0bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ica_Banken_Test.PostListViewModel.getPost() -&gt; ()"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/ViewModels/PostListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37EBE0A4-FE5F-4A2E-8CB8-06255C7E498E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "request()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "37EBE0A4-FE5F-4A2E-8CB8-06255C7E498E - 2e08cc6bc4cde492"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ica_Banken_Test.GetPostsRequest.request() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "912">
+               </Location>
+               <Location
+                  uuid = "37EBE0A4-FE5F-4A2E-8CB8-06255C7E498E - 2e08cc6bc4cde492"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ica_Banken_Test.GetPostsRequest.request() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1120">
+               </Location>
+               <Location
+                  uuid = "37EBE0A4-FE5F-4A2E-8CB8-06255C7E498E - 2e08cc6bc4cde492"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ica_Banken_Test.GetPostsRequest.request() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "824">
+               </Location>
+               <Location
+                  uuid = "37EBE0A4-FE5F-4A2E-8CB8-06255C7E498E - 2e08cc6bc4cde492"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ica_Banken_Test.GetPostsRequest.request() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "992">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8DE6FC5-185A-4FFC-9F7F-4FBE2735617F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "url"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E8DE6FC5-185A-4FFC-9F7F-4FBE2735617F - 401511121ae4b529"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ica_Banken_Test.GetPostsRequest.url.getter : Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "784">
+               </Location>
+               <Location
+                  uuid = "E8DE6FC5-185A-4FFC-9F7F-4FBE2735617F - 401511121ae4b529"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ica_Banken_Test.GetPostsRequest.url.getter : Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "868">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9485762A-CF80-46C4-A19A-4222438E138B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "request()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9485762A-CF80-46C4-A19A-4222438E138B - 2e08cc6bc4cde4f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ica_Banken_Test.GetPostsRequest.request() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "9485762A-CF80-46C4-A19A-4222438E138B - 2e08cc6bc4cde4f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ica_Banken_Test.GetPostsRequest.request() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "672">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04D68F31-4F6C-45EA-A9CB-E872463E6356"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "request()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "04D68F31-4F6C-45EA-A9CB-E872463E6356 - 2e08cc6bc4cde716"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ica_Banken_Test.GetPostsRequest.request() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "652">
+               </Location>
+               <Location
+                  uuid = "04D68F31-4F6C-45EA-A9CB-E872463E6356 - 2e08cc6bc4cde716"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ica_Banken_Test.GetPostsRequest.request() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF07AB9E-CE72-4582-B272-C12B5C029C28"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "request()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EF07AB9E-CE72-4582-B272-C12B5C029C28 - 2e08cc6bc4cde735"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ica_Banken_Test.GetPostsRequest.request() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "828">
+               </Location>
+               <Location
+                  uuid = "EF07AB9E-CE72-4582-B272-C12B5C029C28 - 2e08cc6bc4cde735"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ica_Banken_Test.GetPostsRequest.request() throws -&gt; Foundation.URLRequest"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/NetworkService/Requests/GetPostsRequest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "752">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5717EA4B-D524-45D4-8294-A2D56ED757EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ica-Banken-Test/ViewModels/PostListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getPost()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5717EA4B-D524-45D4-8294-A2D56ED757EE - 126021bfa304ec4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in Ica_Banken_Test.PostListViewModel.getPost() -&gt; ()"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/ViewModels/PostListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "5717EA4B-D524-45D4-8294-A2D56ED757EE - 4aada352a49b1a3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async throws -&gt; () in Ica_Banken_Test.PostListViewModel.getPost() -&gt; ()"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/ViewModels/PostListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "5717EA4B-D524-45D4-8294-A2D56ED757EE - af29d3ee34882b4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in Ica_Banken_Test.PostListViewModel.getPost() -&gt; ()"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/ViewModels/PostListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "5717EA4B-D524-45D4-8294-A2D56ED757EE - 81b54af6ff4dc8cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in Ica_Banken_Test.PostListViewModel.getPost() -&gt; ()"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/ViewModels/PostListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "5717EA4B-D524-45D4-8294-A2D56ED757EE - 81b54af6ff4dc8cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in Ica_Banken_Test.PostListViewModel.getPost() -&gt; ()"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/ViewModels/PostListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "5717EA4B-D524-45D4-8294-A2D56ED757EE - 126021bfa304ec4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in Ica_Banken_Test.PostListViewModel.getPost() -&gt; ()"
+                  moduleName = "Ica-Banken-Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/timgunnarsson/Documents/GitHub/Ica-Banken-Test/Ica-Banken-Test/ViewModels/PostListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE4AD7E1-0029-4DA7-BAAE-8B25F120AEA1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ica-Banken-Test/NetworkService/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "perform(request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

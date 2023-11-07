@@ -7,32 +7,10 @@
 
 import Foundation
 
-enum HTTPMethod {
+enum HTTPMethod: String {
     case GET
-    case POST(_ body: Encodable?)
-    case PUT(_ body: Encodable?)
-    case PATCH(_ body: Encodable?)
+    case POST
+    case PUT
+    case PATCH
     case DELETE
-    
-    var httpMethod: String {
-        switch self {
-        case .GET:
-            return "GET"
-        case .DELETE:
-            return "DELETE"
-        case .PATCH: return "PATCH"
-        case .POST: return "POST"
-        case .PUT: return "PUT"
-        }
-    }
-    
-    #warning("This should probably reside in the request objects or a request builder")
-    var body: Encodable? {
-        switch self {
-        case .PATCH(let body), .POST(let body), .PUT(let body): 
-            return body
-        case .GET, .DELETE: 
-            return nil
-        }
-    }
 }

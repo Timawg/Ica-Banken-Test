@@ -1,31 +1,27 @@
 //
-//  PostsRequest.swift
+//  CreatePostRequest.swift
 //  Ica-Banken-Test
 //
-//  Created by Tim Gunnarsson on 2023-11-06.
+//  Created by Tim Gunnarsson on 2023-11-07.
 //
 
 import Foundation
 
-struct GetPostsRequest: RequestProtocol {
-    let id: Int?
+struct CreatePostRequest: RequestProtocol {
+    
+    let body: Encodable?
     let path: Path = .posts
-    let httpMethod: HTTPMethod = .GET
-    let cachePolicy: URLRequest.CachePolicy = .reloadRevalidatingCacheData
+    let httpMethod: HTTPMethod = .POST    
+    let cachePolicy: URLRequest.CachePolicy = .useProtocolCachePolicy
     
     var url: URL? {
         var urlComponents = URLComponents()
         urlComponents.scheme = scheme.rawValue
         urlComponents.host = host.rawValue
         urlComponents.path = path.rawValue
-        if let id {
-            return urlComponents.url?.appending(path: "\(id)")
-        } else {
-            return urlComponents.url
-        }
+        return urlComponents.url
     }
-
-    #warning("Should probably be abstracted away into a RequestBuilder object")
+    
     func request() throws -> URLRequest {
         guard let url else {
             throw URLError(.badURL)
@@ -33,6 +29,9 @@ struct GetPostsRequest: RequestProtocol {
         
         var request = URLRequest(url: url, cachePolicy: cachePolicy)
         request.httpMethod = httpMethod.rawValue
+        if let body {
+            request.httpBody = try JSONEncoder().encode(body)
+        }
         return request
     }
 }

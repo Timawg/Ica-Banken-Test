@@ -26,6 +26,7 @@
 		F55568562AF9D84E005B2FAB /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568552AF9D84E005B2FAB /* HTTPMethod.swift */; };
 		F55568582AF9E2DE005B2FAB /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568572AF9E2DE005B2FAB /* Path.swift */; };
 		F57352C92AF9F9A10075DB60 /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57352C82AF9F9A10075DB60 /* PostListViewModel.swift */; };
+		F57352CB2AFA20AF0075DB60 /* CreatePostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57352CA2AFA20AF0075DB60 /* CreatePostRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		F55568552AF9D84E005B2FAB /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		F55568572AF9E2DE005B2FAB /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		F57352C82AF9F9A10075DB60 /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
+		F57352CA2AFA20AF0075DB60 /* CreatePostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 			children = (
 				F55568592AF9F0DC005B2FAB /* URLComponents */,
 				F555684D2AF94275005B2FAB /* RequestProtocol.swift */,
+				F57352CA2AFA20AF0075DB60 /* CreatePostRequest.swift */,
 				F555684F2AF942F1005B2FAB /* GetPostsRequest.swift */,
 				F55568552AF9D84E005B2FAB /* HTTPMethod.swift */,
 			);
@@ -356,6 +359,7 @@
 				F55568142AF928A6005B2FAB /* AppDelegate.swift in Sources */,
 				F55568462AF936D7005B2FAB /* UIView+Extensions.swift in Sources */,
 				F555684E2AF94275005B2FAB /* RequestProtocol.swift in Sources */,
+				F57352CB2AFA20AF0075DB60 /* CreatePostRequest.swift in Sources */,
 				F55568482AF94117005B2FAB /* Post.swift in Sources */,
 				F55568542AF9D701005B2FAB /* Schemes.swift in Sources */,
 				F55568442AF93434005B2FAB /* PostListView.swift in Sources */,

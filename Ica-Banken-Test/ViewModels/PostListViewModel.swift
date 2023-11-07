@@ -19,7 +19,7 @@ final class PostListViewModel: ObservableObject {
     
     @MainActor
     func getPost(){
-        let request = GetPostsRequest()
+        let request = GetPostsRequest(id: nil)
         Task {
             let posts: [Post] = try await networkService.perform(request: request)
             self.posts = posts.filter { $0.id < filterLimit }

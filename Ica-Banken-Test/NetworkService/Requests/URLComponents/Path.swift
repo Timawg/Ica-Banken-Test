@@ -9,4 +9,5 @@ import Foundation
 
 enum Path: String {
     case posts = "/posts"
+    case comments = "/comments"
 }
