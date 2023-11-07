@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         
         let postListViewController = PostListViewController(viewModel: .init(networkService: networkService))
+        #warning("Coordinator for navigation")
         window.rootViewController = UINavigationController(rootViewController: postListViewController)
         
         self.window = window

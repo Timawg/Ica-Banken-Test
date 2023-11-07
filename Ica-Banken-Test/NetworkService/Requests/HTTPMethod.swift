@@ -26,6 +26,7 @@ enum HTTPMethod {
         }
     }
     
+    #warning("This should probably reside in the request objects or a request builder")
     var body: Encodable? {
         switch self {
         case .PATCH(let body), .POST(let body), .PUT(let body): 

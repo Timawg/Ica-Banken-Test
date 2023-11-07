@@ -12,6 +12,7 @@ protocol NetworkServiceProtocol {
     func perform<T: Decodable>(request: RequestProtocol) async throws -> T
 }
 
+#warning("May want to create additional abstractions on top NetworkService tailored for different endpoints")
 final class NetworkService: NetworkServiceProtocol {
     
     private let session: URLSession

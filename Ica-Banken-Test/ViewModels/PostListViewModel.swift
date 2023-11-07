@@ -23,6 +23,7 @@ final class PostListViewModel: ObservableObject {
         Task {
             let posts: [Post] = try await networkService.perform(request: request)
             self.posts = posts.filter { $0.id < filterLimit }
+            #warning("Missing error handling")
         }
     }
 }

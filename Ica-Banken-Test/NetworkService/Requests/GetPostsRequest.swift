@@ -20,6 +20,7 @@ struct GetPostsRequest: RequestProtocol {
         return urlComponents.url
     }
     
+    #warning("Should probably be abstracted away into a RequestBuilder object")
     func request() throws -> URLRequest {
         guard let url else {
             throw URLError(.badURL)
