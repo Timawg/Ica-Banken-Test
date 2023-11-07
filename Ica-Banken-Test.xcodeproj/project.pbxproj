@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		F55568142AF928A6005B2FAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568132AF928A6005B2FAB /* AppDelegate.swift */; };
 		F55568162AF928A6005B2FAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568152AF928A6005B2FAB /* SceneDelegate.swift */; };
-		F55568182AF928A6005B2FAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568172AF928A6005B2FAB /* ViewController.swift */; };
-		F555681B2AF928A6005B2FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55568192AF928A6005B2FAB /* Main.storyboard */; };
+		F55568182AF928A6005B2FAB /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568172AF928A6005B2FAB /* PostListViewController.swift */; };
 		F555681D2AF928AB005B2FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F555681C2AF928AB005B2FAB /* Assets.xcassets */; };
 		F55568202AF928AB005B2FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F555681E2AF928AB005B2FAB /* LaunchScreen.storyboard */; };
 		F555682B2AF928AB005B2FAB /* Ica_Banken_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555682A2AF928AB005B2FAB /* Ica_Banken_TestTests.swift */; };
 		F55568352AF928AB005B2FAB /* Ica_Banken_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568342AF928AB005B2FAB /* Ica_Banken_TestUITests.swift */; };
 		F55568372AF928AB005B2FAB /* Ica_Banken_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568362AF928AB005B2FAB /* Ica_Banken_TestUITestsLaunchTests.swift */; };
+		F55568442AF93434005B2FAB /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568432AF93434005B2FAB /* PostListView.swift */; };
+		F55568462AF936D7005B2FAB /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568452AF936D7005B2FAB /* UIView+Extensions.swift */; };
+		F55568482AF94117005B2FAB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568472AF94117005B2FAB /* Post.swift */; };
+		F555684B2AF94178005B2FAB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555684A2AF94178005B2FAB /* NetworkService.swift */; };
+		F555684E2AF94275005B2FAB /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555684D2AF94275005B2FAB /* RequestProtocol.swift */; };
+		F55568502AF942F1005B2FAB /* GetPostsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555684F2AF942F1005B2FAB /* GetPostsRequest.swift */; };
+		F55568522AF9D6D3005B2FAB /* Hosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568512AF9D6D3005B2FAB /* Hosts.swift */; };
+		F55568542AF9D701005B2FAB /* Schemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568532AF9D701005B2FAB /* Schemes.swift */; };
+		F55568562AF9D84E005B2FAB /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568552AF9D84E005B2FAB /* HTTPMethod.swift */; };
+		F55568582AF9E2DE005B2FAB /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55568572AF9E2DE005B2FAB /* Path.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +48,7 @@
 		F55568102AF928A6005B2FAB /* Ica-Banken-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ica-Banken-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55568132AF928A6005B2FAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F55568152AF928A6005B2FAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F55568172AF928A6005B2FAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F555681A2AF928A6005B2FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F55568172AF928A6005B2FAB /* PostListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
 		F555681C2AF928AB005B2FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F555681F2AF928AB005B2FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F55568212AF928AB005B2FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		F55568302AF928AB005B2FAB /* Ica-Banken-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ica-Banken-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55568342AF928AB005B2FAB /* Ica_Banken_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ica_Banken_TestUITests.swift; sourceTree = "<group>"; };
 		F55568362AF928AB005B2FAB /* Ica_Banken_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ica_Banken_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F55568432AF93434005B2FAB /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		F55568452AF936D7005B2FAB /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		F55568472AF94117005B2FAB /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F555684A2AF94178005B2FAB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F555684D2AF94275005B2FAB /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		F555684F2AF942F1005B2FAB /* GetPostsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPostsRequest.swift; sourceTree = "<group>"; };
+		F55568512AF9D6D3005B2FAB /* Hosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hosts.swift; sourceTree = "<group>"; };
+		F55568532AF9D701005B2FAB /* Schemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schemes.swift; sourceTree = "<group>"; };
+		F55568552AF9D84E005B2FAB /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		F55568572AF9E2DE005B2FAB /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +117,13 @@
 		F55568122AF928A6005B2FAB /* Ica-Banken-Test */ = {
 			isa = PBXGroup;
 			children = (
+				F57352C72AF9F5A60075DB60 /* ViewModels */,
+				F57352C62AF9F5920075DB60 /* Views */,
+				F57352C52AF9F5830075DB60 /* ViewControllers */,
+				F555685B2AF9F15E005B2FAB /* Extensions */,
+				F55568492AF9415C005B2FAB /* NetworkService */,
 				F55568132AF928A6005B2FAB /* AppDelegate.swift */,
 				F55568152AF928A6005B2FAB /* SceneDelegate.swift */,
-				F55568172AF928A6005B2FAB /* ViewController.swift */,
-				F55568192AF928A6005B2FAB /* Main.storyboard */,
 				F555681C2AF928AB005B2FAB /* Assets.xcassets */,
 				F555681E2AF928AB005B2FAB /* LaunchScreen.storyboard */,
 				F55568212AF928AB005B2FAB /* Info.plist */,
@@ -125,6 +146,76 @@
 				F55568362AF928AB005B2FAB /* Ica_Banken_TestUITestsLaunchTests.swift */,
 			);
 			path = "Ica-Banken-TestUITests";
+			sourceTree = "<group>";
+		};
+		F55568492AF9415C005B2FAB /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				F555685A2AF9F138005B2FAB /* Models */,
+				F555684C2AF9417D005B2FAB /* Requests */,
+				F555684A2AF94178005B2FAB /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		F555684C2AF9417D005B2FAB /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				F55568592AF9F0DC005B2FAB /* URLComponents */,
+				F555684D2AF94275005B2FAB /* RequestProtocol.swift */,
+				F555684F2AF942F1005B2FAB /* GetPostsRequest.swift */,
+				F55568552AF9D84E005B2FAB /* HTTPMethod.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		F55568592AF9F0DC005B2FAB /* URLComponents */ = {
+			isa = PBXGroup;
+			children = (
+				F55568512AF9D6D3005B2FAB /* Hosts.swift */,
+				F55568532AF9D701005B2FAB /* Schemes.swift */,
+				F55568572AF9E2DE005B2FAB /* Path.swift */,
+			);
+			path = URLComponents;
+			sourceTree = "<group>";
+		};
+		F555685A2AF9F138005B2FAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F55568472AF94117005B2FAB /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F555685B2AF9F15E005B2FAB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F55568452AF936D7005B2FAB /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F57352C52AF9F5830075DB60 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F55568172AF928A6005B2FAB /* PostListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F57352C62AF9F5920075DB60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F55568432AF93434005B2FAB /* PostListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F57352C72AF9F5A60075DB60 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +324,6 @@
 			files = (
 				F55568202AF928AB005B2FAB /* LaunchScreen.storyboard in Resources */,
 				F555681D2AF928AB005B2FAB /* Assets.xcassets in Resources */,
-				F555681B2AF928A6005B2FAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +348,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F55568182AF928A6005B2FAB /* ViewController.swift in Sources */,
+				F55568182AF928A6005B2FAB /* PostListViewController.swift in Sources */,
 				F55568142AF928A6005B2FAB /* AppDelegate.swift in Sources */,
+				F55568462AF936D7005B2FAB /* UIView+Extensions.swift in Sources */,
+				F555684E2AF94275005B2FAB /* RequestProtocol.swift in Sources */,
+				F55568482AF94117005B2FAB /* Post.swift in Sources */,
+				F55568542AF9D701005B2FAB /* Schemes.swift in Sources */,
+				F55568442AF93434005B2FAB /* PostListView.swift in Sources */,
 				F55568162AF928A6005B2FAB /* SceneDelegate.swift in Sources */,
+				F55568562AF9D84E005B2FAB /* HTTPMethod.swift in Sources */,
+				F55568522AF9D6D3005B2FAB /* Hosts.swift in Sources */,
+				F55568582AF9E2DE005B2FAB /* Path.swift in Sources */,
+				F55568502AF942F1005B2FAB /* GetPostsRequest.swift in Sources */,
+				F555684B2AF94178005B2FAB /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +397,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F55568192AF928A6005B2FAB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F555681A2AF928A6005B2FAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F555681E2AF928AB005B2FAB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +539,6 @@
 				INFOPLIST_FILE = "Ica-Banken-Test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +566,6 @@
 				INFOPLIST_FILE = "Ica-Banken-Test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
